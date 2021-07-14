@@ -13,7 +13,9 @@ class PermissionController extends Controller
     {
         return response(['permissions' => Permission::get(), 'success' => 1 ]);
     }
-
+       public function test(){
+           
+       }
 
     public function store(Request $request)
     {
@@ -38,6 +40,8 @@ class PermissionController extends Controller
                 'success' => 0
             ]);
     }
+
+
 
     
     public function show($id,Request $request)
