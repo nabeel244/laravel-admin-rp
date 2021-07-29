@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ asset('plugins/DataTables/datatables.min.css') }}">
         <link rel="stylesheet" href="{{ asset('plugins/select2/dist/css/select2.min.css') }}">
     @endpush
-     /*    code for check updates */
+    
     
     <div class="container-fluid">
     	<div class="page-header">
